@@ -1,0 +1,23 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.wrapper {
+	padding: 10px 20px;
+}
+
+#imagesRow {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	margin: 10px 0 0 0;
+}
+
+#imagesRow img {
+	width: 400px;
+	max-width: 100%;
+	border-radius: 10px;
+}
+
